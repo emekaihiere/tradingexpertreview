@@ -1,0 +1,400 @@
+
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: #fcfeff;
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    margin: 0 auto;
+    margin-top: 80px;
+    width: 85%;
+        
+}
+
+  .main img{
+    width: 980px;
+    padding-left: 5px;
+    padding-right: 35px;
+}
+
+.main2{
+    padding-left: 70px;
+    font-size: 40px;
+}
+
+.main1{
+    color: rgb(124, 121, 121);
+    font-weight: lighter;
+    padding-right: 200px;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+p{
+    font-size: 1.7rem;
+    font-weight: 300;
+    line-height: 1.4;
+    padding-right: 210px;
+    color: rgb(56, 56, 56);
+}
+
+#HH{
+    font-size: 35px;
+}
+
+li::marker {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+@media (max-width: 1250px) {
+    
+    .main img{
+        width: 810px;
+        padding-left: 5px;
+        padding-right: 35px;
+    }
+
+    h1 {
+        font-size: 1.9rem;
+    }
+    .main2{
+        padding-left: 5px;
+        font-size: 40px;
+    }
+    .main1{
+        padding-right: 200px;
+        padding-left: 28px;
+    }
+    #NM {
+        padding-left: 3px;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    .main img{
+        width: 800px;
+        padding-left: 5px;
+        padding-right: 35px;
+    }
+
+    h1 {
+        font-size: 1.9rem;
+    }
+    .main2{
+        padding-left: 5px;
+        font-size: 35px;
+        padding-bottom: 20px;
+    }
+    .main1{
+        padding-right: 80px;
+        padding-left: 28px;
+    }
+    #NM {
+        padding-left: 3px;
+    }
+    p{
+        font-size: 1.5rem;
+        font-weight: 300;
+        line-height: 1.4;
+        padding-right: 100px;
+    }
+}
+
+@media (max-width: 957px) {
+    .main img{
+       width: 750px;
+       padding-left: 0;
+    }
+    .main2{
+       padding-left: 0;
+       font-size: 5px;
+   }
+   h1 {
+       font-size: 25px;
+   }
+   #HH{
+       font-size: 30px;
+   }
+}
+
+@media (max-width: 850px) {
+    
+    .main img{
+        width: 700px;
+        padding-left: 5px;
+        padding-right: 35px;
+    }
+
+    h1 {
+        font-size: 1.7rem;
+    }
+    .main2{
+        padding-left: 5px;
+        font-size: 32px;
+        padding-bottom: 20px;
+    }
+    .main1{
+        padding-right: 40px;
+        padding-left: 17px;
+    }
+    #NM {
+        padding-left: 3px;
+        font-weight: 5px;
+    }
+    #EM{
+        font-size: 1.8rem;
+    }
+    p{
+        font-size: 1.35rem;
+        font-weight: 300;
+        line-height: 1.4;
+        padding-right: 100px;
+    }
+}
+
+@media (max-width: 700px) {
+    
+    .main img{
+        width: 600px;
+        padding-left: 5px;
+        padding-right: 35px;
+    }
+
+    h1 {
+        font-size: 1.45rem;
+    }
+    h2 {
+        font-size: 1.3rem;
+    }
+    .main2{
+        font-size: 30px;
+        padding-bottom: 15px;
+    }
+    .main1{
+        padding-right: 2px;
+        padding-left: 17px;
+        font-size: 1.38rem;
+        color: rgb(51, 51, 51);
+    }
+    #NM {
+        padding-left: 3px;
+        font-size: 1.2rem;
+        font-weight: 3px;
+    }
+    #EM{
+        font-size: 1.38rem;
+    }
+    p{
+        font-size: 1.35rem;
+        font-weight: 300;
+        line-height: 1.4;
+        padding-right: 100px;
+    }
+    li::marker {
+        font-size: 23px;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 650px) {
+    
+    .main img{
+        width: 500px;
+        padding-left: 5px;
+        padding-right: 35px;
+    }
+}
+
+@media (max-width: 600px) {
+    
+    .main img{
+        width: 450px;
+        padding-left: 5px;
+        padding-right: 35px;
+    }
+
+    h1 {
+        font-size: 1.25rem;
+    }
+    h2 {
+        font-size: 1.19rem;
+    }
+    .main2{
+        font-size: 25px;
+        padding-bottom: 13px;
+    }
+    .main1{
+        
+        padding-left: 10px;
+        font-size: 1.3rem;
+        color: rgb(51, 51, 51);
+    }
+    #NM {
+        padding-left: 3px;
+        font-size: 1.2rem;
+        font-weight: 3px;
+    }
+    #EM{
+        font-size: 1.3rem;
+    }
+    p{
+        font-size: 1.3rem;
+        font-weight: 300;
+        line-height: 1.4;
+        padding-right: 50px;
+    }
+    li::marker {
+        font-size: 23px;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 520px) {
+    
+    .main img{
+        width: 390px;
+        padding-left: 5px;
+        padding-right: 35px;
+    }
+
+    h1 {
+        font-size: 1.23rem;
+    }
+    h2 {
+        font-size: 1.19rem;
+    }
+    .main2{
+        font-size: 25px;
+        padding-bottom: 13px;
+    }
+    .main1{
+        
+        padding-left: 10px;
+        font-size: 1.2rem;
+        color: rgb(51, 51, 51);
+    }
+    #NM {
+        padding-left: 3px;
+        font-size: 1.1rem;
+        font-weight: 3px;
+    }
+    #EM{
+        font-size: 1.25rem;
+    }
+    p{
+        font-size: 1.25rem;
+        font-weight: 300;
+        line-height: 1.4;
+        padding-right: 20px;
+    }
+    li::marker {
+        font-size: 22px;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 520px) {
+    
+    .main img{
+        width: 370px;
+        padding-left: 5px;
+        padding-right: 35px;
+    }
+
+    h1 {
+        font-size: 1.26rem;
+    }
+    h2 {
+        font-size: 1.1rem;
+    }
+    .main2{
+        font-size: 26px;
+        padding-bottom: 13px;
+    }
+    .main1{
+        font-size: 1.2rem;
+        color: rgb(51, 51, 51);
+    }
+    #NM {
+        padding-left: 3px;
+        font-size: 1.1rem;
+        font-weight: 3px;
+    }
+    #EM{
+        font-size: 1.25rem;
+    }
+    p{
+        font-size: 1.25rem;
+        font-weight: 300;
+        line-height: 1.3;
+        padding-right: 15px;
+    }
+    #HH {
+        font-size: 1.8rem;
+    }
+    li::marker {
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 380px) {
+
+    .container{
+        margin-top: 50px;
+        width: 90%;      
+    }
+    
+    .main img{
+        width: 350px;
+        padding-left: 5px;
+        padding-right: 35px;
+    }
+
+    h1 {
+        font-size: 1.26rem;
+    }
+    h2 {
+        font-size: 1.1rem;
+    }
+    h4 {
+        font-size: .9rem;
+    }
+    .main2{
+        font-size: 28px;
+        padding-bottom: 13px;
+    }
+    .main1{
+        font-size: 1.25rem;
+        color: rgb(43, 43, 43);
+    }
+    #NM {
+        padding-left: 3px;
+        font-size: 1rem;
+        font-weight: 3px;
+    }
+    #EM{
+        font-size: 1.25rem;
+    }
+    p{
+        font-size: 1.25rem;
+        font-weight: 300;
+        line-height: 1.3;
+    }
+    #HH {
+        font-size: 1.51rem;
+    }
+    li::marker {
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
